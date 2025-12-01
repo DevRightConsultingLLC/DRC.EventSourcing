@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        
+        <!-- NuGet Package Metadata -->
+        <PackageId>DRC.EventSourcing.MySql</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>DRC.EventSourcing Contributors</Authors>
+        <Company>DRC</Company>
+        <Description>MySQL storage provider for DRC.EventSourcing with support for cold storage archiving.</Description>
+        <PackageTags>eventsourcing;event-sourcing;mysql;mariadb;archiving;cqrs</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/DevRightConsultingLLC/DRC.EventSourcing</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/DevRightConsultingLLC/DRC.EventSourcing</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Copyright>Copyright (c) 2025 DRC.EventSourcing Contributors</Copyright>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.1.66" />
+      <PackageReference Include="MySqlConnector" Version="2.4.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DRC.EventSourcing\DRC.EventSourcing.csproj" />
+    </ItemGroup>
+
+</Project>
+

@@ -1,0 +1,58 @@
+﻿## Ignore build outputs
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+## Visual Studio cache/options
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code settings
+.vscode/
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Azure
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+## Entity Framework Migrations (optional)
+# Migrations/
+
+## Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+## Logs
+*.log
+
+## OS generated files
+[Tt]humbs.db
+[Dd]esktop.ini
+*.DS_Store
+
+## Other
+*.tmp
+*.cache
+*.bak
+*.swp
+*.lock.json
